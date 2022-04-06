@@ -1,0 +1,28 @@
+@mixin title-section {
+
+  @media (max-width: $tablet-max) {
+
+    }
+
+    @media (max-width: $mobile-max) {
+
+    }
+
+}
+
+@mixin container($width: 2024px) {
+  margin: 0 auto;
+}
+
+@mixin section-padding {
+
+
+  @media (max-width: $tablet-max) {
+
+      }
+
+    @media (max-width: $mobile-max) {
+
+
+    }
+}

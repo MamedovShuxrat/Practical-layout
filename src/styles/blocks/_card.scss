@@ -1,0 +1,49 @@
+.card {
+
+}
+
+.card-img {
+  max-width: 100%;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 12px;
+
+
+}
+
+.card-svg {
+  display: block;
+
+
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.card-adress {
+  margin: 12px 0;
+  display: inline-block;
+}
+
+.ferma {
+  background-image: url('../images/icons/main-icon.svg');
+  width: 150px;
+  height: 80px;
+
+}
+
+.xinkali {
+  background-image: url('../images/icons/xinkali.svg');
+  width: 140px;
+  height: 130px;
+}
+
+.seagull {
+  background-image: url('../images/icons/chayka.svg');
+  width: 193px;
+  height: 71px;
+}
