@@ -1,5 +1,12 @@
 .card {
+  position: relative;
 
+  &:hover {
+   background: opacity rgba(0,0,0, .1);
+  }
+  &:hover .card-hover {
+    opacity: 1;
+  }
 }
 
 .card-img {
@@ -13,15 +20,18 @@
   margin-bottom: 12px;
 
 
+
 }
 
 .card-svg {
   display: block;
+  margin: 20px auto;
+  display: inline-block;
 
 
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
+
 }
 
 .card-adress {
@@ -40,10 +50,41 @@
   background-image: url('../images/icons/xinkali.svg');
   width: 140px;
   height: 130px;
+  margin: 0;
 }
 
 .seagull {
   background-image: url('../images/icons/chayka.svg');
   width: 193px;
   height: 71px;
+
+}
+
+.card-hover {
+  padding: 65px 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.9) 0%, rgba(240, 235, 229, 0.9) 100%);
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  transition: all .2s linear;
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+  margin-top: 26px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.card-phone {
+  font-size: 30px;
+  line-height: 35px;
+  color: #000;
+  display: block;
+
 }
