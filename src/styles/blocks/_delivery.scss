@@ -1,0 +1,60 @@
+.delivery {
+  @include container;
+}
+
+.delivery-inner {
+  padding: 60px 0 200px ;
+}
+.delivery-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+.delivery-item {
+  width: 46%;
+}
+.grow {
+  position: relative;
+  flex-grow: 2;
+
+}
+
+.truck {
+  background-image: url('../images/icons/truck.svg');
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 115px;
+  padding-right: 180px;
+}
+
+.delivery-text {
+  color: rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  font-size: 80px;
+  margin-right: 5px;
+}
+
+.eat {
+  font-size: 220px;
+}
+
+.delicious {
+  font-size: 130px;
+}
+
+.fast {
+  font-size: 50px;
+}
+
+.delivery-info {
+  font-size: 40px;
+  line-height: 46px;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+
+  transform: translateY(-50%);
+}

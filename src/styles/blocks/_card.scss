@@ -26,7 +26,6 @@
 .card-svg {
   display: block;
   margin: 20px auto;
-  display: inline-block;
 
 
   background-position: center;
@@ -37,6 +36,8 @@
 .card-adress {
   margin: 12px 0;
   display: inline-block;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .ferma {
@@ -45,12 +46,16 @@
   height: 80px;
 
 }
+.ferma-white {
+  background-image: url('../images/icons/traced-white.svg');
+  width: 150px;
+  height: 80px;
+}
 
 .xinkali {
   background-image: url('../images/icons/xinkali.svg');
   width: 140px;
   height: 130px;
-  margin: 0;
 }
 
 .seagull {
@@ -61,7 +66,7 @@
 }
 
 .card-hover {
-  padding: 65px 0;
+  padding: 135px 0;
   background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.9) 0%, rgba(240, 235, 229, 0.9) 100%);
   opacity: 0;
   position: absolute;
@@ -86,5 +91,40 @@
   line-height: 35px;
   color: #000;
   display: block;
+
+}
+
+.business-card {
+  padding: 24px 47px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  height: 380px;
+
+}
+
+.business-card-title {
+  display: block;
+  font-size: 50px;
+  line-height: 57px;
+  margin-bottom: 30px;
+}
+
+.business-card-suptitle {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.buffet {
+  background: conic-gradient(from 44.8deg at 54.97% 36.41%, #DFB084 0deg, #DA9A5F 154.69deg, #DFB084 360deg);
+}
+
+.holiday {
+  background: conic-gradient(from 148.44deg at 50% 50%, #C13823 0deg, #E05E4A 178.29deg, #C13823 360deg);
+  color: #fff;
+}
+
+.dessert {
+  background: conic-gradient(from -42.01deg at 46.52% 41.92%, #E2B3A4 0deg, #CAB377 149.33deg, #E2B3A4 360deg);
+  color: #fff;
 
 }

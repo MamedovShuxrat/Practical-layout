@@ -10,8 +10,9 @@
 
 }
 
-@mixin container($width: 2024px) {
+@mixin container {
   margin: 0 auto;
+  width: 2024px;
 }
 
 @mixin section-padding {
