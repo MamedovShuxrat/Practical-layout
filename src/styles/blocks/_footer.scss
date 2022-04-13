@@ -1,0 +1,76 @@
+.footer {
+  @include container;
+}
+
+.footer-inner {
+  padding: 110px 0 140px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-item {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  margin-bottom:30px;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+}
+
+.footer-desc {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #999797;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.phone-svg {
+  background-image: url('../images/icons/call.svg');
+  font-weight: 400;
+  color: #000;
+
+  background-repeat: no-repeat;
+}
+
+.footer-email {
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.email-form {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  color: #000;
+  font-family: inherit;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 1px solid #999797;
+  outline: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.email-btn {
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  padding: 10px ;
+  color: #999797;
+}
